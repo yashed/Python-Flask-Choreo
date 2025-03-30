@@ -1,0 +1,5 @@
+# Encrypt specific files
+secret.txt filter=git-crypt diff=git-crypt
+
+# Encrypt all files in a directory
+secrets/* filter=git-crypt diff=git-crypt
